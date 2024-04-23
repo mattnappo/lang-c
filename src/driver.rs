@@ -12,6 +12,7 @@ use env::Env;
 use loc;
 use parser::translation_unit;
 
+
 /// Parser configuration
 #[derive(Clone, Debug)]
 pub struct Config {

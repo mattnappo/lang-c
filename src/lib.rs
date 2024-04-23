@@ -13,9 +13,11 @@
 #![allow(ellipsis_inclusive_range_patterns)]
 
 pub mod ast;
+pub mod ast_nospan;
 pub mod driver;
 pub mod loc;
 pub mod print;
+pub mod remover;
 pub mod span;
 pub mod visit;
 
